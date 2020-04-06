@@ -1,21 +1,29 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "\"This is a test directory to learn Git and Node\"",
+  "description": "First node project",
   "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.3.1",
+    "lite-server": "^2.5.4",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start":"npm run lite"
     "test": "echo \"Error: no test specified\" && exit 1"
-    "lite":"lite-servers"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://vaishnavi_choppakatla@bitbucket.org/vaishnavi_choppakatla/git-test.git"
+    "url": "git+https://github.com/chyshnavi/git-test.git"
   },
-  "author": "vaishnavi",
+  "keywords": [
+    "node"
+  ],
+  "author": "Vaishnavi Choppakatla",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/vaishnavi_choppakatla/git-test#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  }
+  "bugs": {
+    "url": "https://github.com/chyshnavi/git-test/issues"
+  },
+  "homepage": "https://github.com/chyshnavi/git-test#readme"
 }
